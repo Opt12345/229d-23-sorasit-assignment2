@@ -996,7 +996,7 @@ GameObject:
   - component: {fileID: 1442203111}
   - component: {fileID: 1442203110}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Air Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1038,8 +1038,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd303660f6e3f7042a8145da14dabf3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  rotationSpeed: 100
+  speed: 10
+  flyUp: 0.5
+  flyDown: 0.5
 --- !u!54 &1442203111
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1054,7 +1055,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!1 &1673343702
 GameObject:
